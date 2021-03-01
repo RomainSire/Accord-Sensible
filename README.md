@@ -11,5 +11,7 @@ Il sera **non référencé** par google, car l'utilisateur (auto-entrepreneur) a
 - Typescript
 - Router
 
+"Pourquoi utiliser un framework pour un simple site vitrine? Tu pars chasser le moineau au canon toi?" La réponse est simple: La curiosité! Svelte a l'air très intéressant et agréable à utiliser, je voulais l'utiliser un peu pour en avoir le coeur net! :smile:
+
 ## Design
-Le design a été créé par ma connaissance accordeur de piano. J'ai essayé de respecter ses souhaits, en rendant le design responsive, et un peu plus au goût du jour..
+Le design a été créé par mon proche, accordeur de piano. J'ai essayé de respecter ses souhaits, en rendant le design responsive, et un peu plus au goût du jour..
