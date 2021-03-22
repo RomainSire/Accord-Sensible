@@ -16,6 +16,7 @@
     @include transparent-background-effect;
     width: 100%;
     padding: 15px;
+    margin-top: 2em;
     text-align: center;
     &__emphasis {
       font-size: 1.3em;

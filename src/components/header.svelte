@@ -27,7 +27,7 @@
   .logo {
     text-align: center;
     img {
-      width: 300px;
+      width: 250px;
       max-width: 100%;
     }
   }

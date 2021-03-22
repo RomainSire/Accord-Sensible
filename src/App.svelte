@@ -32,7 +32,7 @@
   .main {
     @include transparent-background-effect;
     width: 80%;
-    border-radius: 50px;
+    border-radius: 35px;
     overflow: hidden;
   }
 </style>
