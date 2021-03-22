@@ -60,6 +60,8 @@
 
 
 <style lang="scss">
+  @import "../variables.scss";
+
   @mixin post-it-visual {
     position: relative;
     background: #ffa;
@@ -160,7 +162,7 @@
     }
 
     ul {
-      font-family: "Potta One", cursive;
+      font-family: $font_title;
       font-size: 1.5em;
       line-height: 2em;
     }
@@ -169,7 +171,7 @@
       text-decoration: none;
       transition: color 200ms;
       &:hover {
-        color: rgb(243, 78, 78);
+        color: $color_emphasis;
       }
     }
 
@@ -183,7 +185,7 @@
       }
       transition: color 200ms;
       &:hover {
-        color: rgb(243, 78, 78);
+        color: $color_emphasis;
       }
     }
   }
