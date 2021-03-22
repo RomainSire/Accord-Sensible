@@ -22,7 +22,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: right 5% bottom 20%;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;

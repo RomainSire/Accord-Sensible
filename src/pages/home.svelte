@@ -16,7 +16,7 @@
     <p>Pour tout renseignement, n'hésitez pas à me contacter !</p>
     <p><strong>Musicalement,</strong></p>
     <p class="signature">
-      <img class="signature" src="favicon.png" alt="signature">
+      <img src="favicon.png" alt="signature" />
     </p>
   </div>
 </div>
