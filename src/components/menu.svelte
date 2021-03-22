@@ -1,5 +1,4 @@
 <script>
-
   /**
    * Toggle the full screen navigation menu
    * @param event {Object} Event object triggered on click
@@ -31,7 +30,11 @@
 </div>
 
 <div class="bg-cover hidden" id="background-menu" on:click={toggleMenu}>
-  <nav class="navigation hidden" id="navigation-menu" on:click={stopPropagation}>
+  <nav
+    class="navigation hidden"
+    id="navigation-menu"
+    on:click={stopPropagation}
+  >
     <ul>
       <li><a href="#/">Accueil</a></li>
       <li><a href="#/">Accord</a></li>
@@ -56,8 +59,6 @@
     </div>
   </nav>
 </div>
-
-
 
 <style lang="scss">
   @import "../variables.scss";
@@ -104,6 +105,10 @@
     }
   }
 
+  p {
+    color: black;
+  }
+
   .post-it {
     @include post-it-visual;
     height: 4em;
@@ -127,7 +132,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: #3338;
+    background: $color_background;
     opacity: 100%;
     transition: opacity 300ms;
   }
@@ -176,6 +181,7 @@
     }
 
     &__close {
+      color: black;
       position: absolute;
       top: 15px;
       right: 15px;

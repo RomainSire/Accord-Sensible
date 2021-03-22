@@ -13,10 +13,9 @@
   @import "../variables.scss";
 
   .footer {
-    background: #3339;
-    box-shadow: 0 0 10px #333;
+    @include transparent-background-effect;
+    width: 100%;
     padding: 15px;
-    color: $color_text;
     text-align: center;
     &__emphasis {
       font-size: 1.3em;

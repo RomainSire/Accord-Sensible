@@ -12,9 +12,11 @@
 </header>
 
 <style lang="scss">
+  @import "../variables.scss";
+
   .header {
-    background: #3339;
-    box-shadow: 0 0 10px #333;
+    @include transparent-background-effect;
+    width: 100%;
     padding: 15px;
     margin-bottom: 2em;
     display: flex;

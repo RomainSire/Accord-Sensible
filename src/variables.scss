@@ -1,6 +1,19 @@
 $color_emphasis: rgb(243, 78, 78);
 $color_text: #ff9a98ff;
-$color_background: #3339;
+$color_background: #333333c8;
 
 $font_text: "Poppins", sans-serif;
 $font_title: "Potta One", cursive;
+
+@mixin transparent-background-effect {
+  background: $color_background;
+  box-shadow: 0 0 10px #333;
+  color: $color_text;
+}
+
+@mixin big-emphasis {
+  font-weight: normal;
+  font-family: $font_title;
+  color: $color_emphasis;
+  font-size: 1.2em;
+}

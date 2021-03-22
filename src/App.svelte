@@ -5,16 +5,18 @@
   import Footer from "./components/footer.svelte";
 </script>
 
-<div class="wrapper">
+<div class="container">
   <Header />
-  <main>
+  <main class="main">
     <Router {routes} />
   </main>
   <Footer />
 </div>
 
 <style lang="scss">
-  .wrapper {
+  @import "./variables.scss";
+
+  .container {
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,5 +27,12 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
+    align-items: center;
+  }
+  .main {
+    @include transparent-background-effect;
+    width: 80%;
+    border-radius: 50px;
+    overflow: hidden;
   }
 </style>
