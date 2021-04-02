@@ -3,11 +3,11 @@
   <div class="description">
     <h1>Conseils - Expertise</h1>
     <p>
-      Si vous voulez acheter un piano d'occasion, que ce soit chez un
+      Si vous voulez <strong>acheter un piano d'occasion</strong>, que ce soit chez un
       professionnel, ou à fortiori chez un particulier, il faut absolument pour
       ne pas avoir de mauvaise surprise vous faire accompagner par un
       professionnel compétent, au minimum un pianiste professionnel, mais
-      l'idéal est de faire appel à un accordeur réparateur de piano ou un
+      l'idéal est de faire appel à un <strong>accordeur réparateur de piano</strong> ou un
       facteur de piano.
     </p>
     <p>

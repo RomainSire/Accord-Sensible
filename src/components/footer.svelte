@@ -21,5 +21,8 @@
     &__emphasis {
       font-size: 1.3em;
     }
+    p {
+      margin: 0;
+    }
   }
 </style>
