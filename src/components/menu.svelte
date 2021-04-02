@@ -40,7 +40,7 @@
       <li><a on:click={toggleMenu} href="#/accord">Accord</a></li>
       <li><a on:click={toggleMenu} href="#/reglages">Réglages</a></li>
       <li><a on:click={toggleMenu} href="#/reparations">Réparations</a></li>
-      <li><a on:click={toggleMenu} href="#/conseil">Conseil</a></li>
+      <li><a on:click={toggleMenu} href="#/conseils">Conseil</a></li>
       <li><a on:click={toggleMenu} href="#/parcours">Mon parcours</a></li>
     </ul>
     <div class="navigation__close" on:click={toggleMenu}>
