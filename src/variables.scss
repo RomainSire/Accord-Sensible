@@ -17,3 +17,25 @@ $font_title: "Potta One", cursive;
   color: $color_emphasis;
   font-size: 1.2em;
 }
+
+@mixin hero-description-layout {
+  .wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .hero {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .description {
+    flex: 1;
+    padding: 30px 50px;
+    strong {
+      @include big-emphasis;
+    }
+  }
+}

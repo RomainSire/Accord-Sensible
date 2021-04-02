@@ -1,7 +1,5 @@
 <div class="wrapper">
-  <div class="hero">
-    <!-- <img src="img/heroBanner.jpg" alt="Travail d'accord de piano" /> -->
-  </div>
+  <div class="hero" />
   <div class="description">
     <h1>Les services que je vous propose :</h1>
     <p>
@@ -24,30 +22,17 @@
 <style lang="scss">
   @import "../variables.scss";
 
-  .wrapper {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: stretch;
-  }
+  @include hero-description-layout;
+
   .hero {
-    flex: 1;
     background-image: url("../../img/heroBanner.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
   }
   .description {
-    flex: 1;
-    padding: 30px 50px;
     .signature {
       margin-top: 0.5em;
       img {
         width: 50px;
       }
-    }
-    strong {
-      @include big-emphasis;
     }
   }
 </style>
