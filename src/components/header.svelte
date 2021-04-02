@@ -12,7 +12,7 @@
 </header>
 
 <style lang="scss">
-  @import "../variables.scss";
+  @import "../commons.scss";
 
   .header {
     @include transparent-background-effect;

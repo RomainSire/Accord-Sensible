@@ -59,7 +59,7 @@
 </div>
 
 <style lang="scss">
-  @import "../variables.scss";
+  @import "../commons.scss";
 
   @mixin post-it-visual {
     position: relative;

@@ -33,7 +33,7 @@
 </div>
 
 <style lang="scss">
-  @import "../variables.scss";
+  @import "../commons.scss";
 
   @include hero-description-layout;
 

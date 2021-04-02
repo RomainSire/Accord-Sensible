@@ -10,7 +10,7 @@
 </footer>
 
 <style lang="scss">
-  @import "../variables.scss";
+  @import "../commons.scss";
 
   .footer {
     @include transparent-background-effect;

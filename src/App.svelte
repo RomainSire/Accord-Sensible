@@ -14,7 +14,7 @@
 </div>
 
 <style lang="scss">
-  @import "./variables.scss";
+  @import "./commons.scss";
 
   .container {
     background-image: url("../img/bg.jpg");
