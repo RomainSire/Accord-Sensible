@@ -38,12 +38,10 @@
     <ul>
       <li><a on:click={toggleMenu} href="#/">Accueil</a></li>
       <li><a on:click={toggleMenu} href="#/accord">Accord</a></li>
-      <li><a on:click={toggleMenu} href="#/">Réglages</a></li>
-      <li><a on:click={toggleMenu} href="#/">Réparations</a></li>
-      <li><a on:click={toggleMenu} href="#/">Conseil</a></li>
-      <li><a on:click={toggleMenu} href="#/">Photos</a></li>
-      <li><a on:click={toggleMenu} href="#/">Amis</a></li>
-      <li><a on:click={toggleMenu} href="#/">Mon parcours</a></li>
+      <li><a on:click={toggleMenu} href="#/reglages">Réglages</a></li>
+      <li><a on:click={toggleMenu} href="#/reparations">Réparations</a></li>
+      <li><a on:click={toggleMenu} href="#/conseil">Conseil</a></li>
+      <li><a on:click={toggleMenu} href="#/parcours">Mon parcours</a></li>
     </ul>
     <div class="navigation__close" on:click={toggleMenu}>
       <svg
