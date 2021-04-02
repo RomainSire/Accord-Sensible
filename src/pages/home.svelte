@@ -3,9 +3,11 @@
   <div class="description">
     <h1>Les services que je vous propose :</h1>
     <p>
-      <strong>Accorder</strong> votre piano, <strong>Régler</strong> la
-      mécanique, <strong>Réparer</strong> les pièces défectueuses, vous
-      <strong>Conseiller</strong>...
+      <strong><a href="#/accord">Accorder</a></strong> votre piano,
+      <strong><a href="#/reglages">Régler</a></strong>
+      la mécanique, <strong><a href="#/reparations">Réparer</a></strong> les
+      pièces défectueuses, vous
+      <strong><a href="#/conseils">Conseiller</a></strong>...
     </p>
     <p>
       Je suis disponible toute la journée, de préférence les jeudis, vendredis,
@@ -22,7 +24,7 @@
 <style lang="scss">
   @import "../commons.scss";
 
-  @include hero-description-layout;
+  @include main-layout;
 
   .hero {
     background-image: url("../../img/heroBanner.jpg");

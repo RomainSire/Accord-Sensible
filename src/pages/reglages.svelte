@@ -23,7 +23,7 @@
 <style lang="scss">
   @import "../commons.scss";
 
-  @include hero-description-layout;
+  @include main-layout;
 
   .hero {
     background-image: url("../../img/marteau.jpg");

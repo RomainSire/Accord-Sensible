@@ -1,6 +1,6 @@
 <footer class="footer">
   <p class="footer__emphasis">
-    Prénom Nom - 75020 PARIS - Tél. : 06.06.06.06.06 - Mail : prenom.nom@email.fr
+    Prénom NOM - Paris, 20<sub>ème</sub> - 06.06.06.06.06 - prenom.nom@email.fr
   </p>
   <p>
     Si je ne réponds pas, laissez moi un message, je vous recontacterai sans
@@ -19,7 +19,8 @@
     margin-top: 2em;
     text-align: center;
     &__emphasis {
-      font-size: 1.3em;
+      @include big-emphasis;
+      //font-size: 1.3em;
     }
     p {
       margin: 0;

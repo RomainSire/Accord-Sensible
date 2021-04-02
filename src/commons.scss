@@ -1,6 +1,6 @@
-$color_emphasis: rgb(243, 78, 78);
-$color_text: #ff9a98ff;
-$color_background: #333333c8;
+$color_emphasis: #ff9a98ff;
+$color_text: #fff;
+$color_background: #333333cc;
 
 $font_text: "Poppins", sans-serif;
 $font_title: "Potta One", cursive;
@@ -18,7 +18,29 @@ $font_title: "Potta One", cursive;
   font-size: 1.1em;
 }
 
-@mixin hero-description-layout {
+@mixin main-layout {
+  h1 {
+    color: $color_emphasis;
+  }
+  a {
+    position: relative;
+    transition: all 500ms;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border-bottom: 2px solid $color_emphasis;
+      transform: scaleX(0);
+      transition: transform 300ms;
+    }
+    &:hover {
+      &::before {
+        transform: none;
+      }
+    }
+  }
   .wrapper {
     display: flex;
     flex-flow: row nowrap;

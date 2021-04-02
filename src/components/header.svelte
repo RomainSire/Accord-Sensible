@@ -26,8 +26,12 @@
   }
   .logo {
     text-align: center;
+    transition: transform 300ms;
+    &:hover {
+      transform: scale(1.05);
+    }
     img {
-      width: 250px;
+      width: 220px;
       max-width: 100%;
     }
   }
