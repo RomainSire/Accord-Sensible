@@ -3,12 +3,14 @@
 </script>
 
 <header class="header">
-  <div class="logo">
-    <a href="#/">
-      <img src="img/logo.png" alt="Logo de L'Accord Sensible" />
-    </a>
+  <div class="wrapper">
+    <div class="logo">
+      <a href="#/">
+        <img src="img/logo.png" alt="Logo de L'Accord Sensible" />
+      </a>
+    </div>
+    <Menu />
   </div>
-  <Menu />
 </header>
 
 <style lang="scss">
@@ -20,9 +22,18 @@
     padding: 15px;
     margin-bottom: 2em;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+  }
+  .wrapper {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 550px) {
+      justify-content: space-between;
+    }
   }
   .logo {
     text-align: center;

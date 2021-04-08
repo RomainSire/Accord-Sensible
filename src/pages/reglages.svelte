@@ -5,13 +5,13 @@
     <p>
       Les <strong>réglages sont essentiels</strong> pour que votre piano fonctionne
       correctement, bien que nombre sont ceux qui ignorent qu'un piano se règle bel
-      et bien !
+      et bien&nbsp!
     </p>
     <p>
       Il y a essentiellement <strong>13 réglages</strong> qui doivent être faits
       et ce d'autant plus que votre piano a de la valeur et qu'il est beaucoup joué.
     </p>
-    <p>Par réglages on entend :</p>
+    <p>Par réglages on entend&nbsp:</p>
     <ol>
       <li>Mise sous le nez</li>
       <li>Echappement</li>

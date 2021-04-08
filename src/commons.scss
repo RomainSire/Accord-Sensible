@@ -43,19 +43,26 @@ $font_title: "Potta One", cursive;
   }
   .wrapper {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: space-between;
     align-items: stretch;
+    @media screen and (min-width: 992px) {
+      flex-flow: row nowrap;
+    }
   }
   .hero {
     flex: 1;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 300px;
   }
   .description {
     flex: 1;
-    padding: 30px 50px;
+    padding: 15px 25px;
+    @media screen and (min-width: 992px) {
+      padding: 30px 50px;
+    }
     strong {
       @include big-emphasis;
     }

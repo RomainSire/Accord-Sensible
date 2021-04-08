@@ -1,7 +1,7 @@
 <div class="wrapper">
   <div class="hero" />
   <div class="description">
-    <h1>Les services que je vous propose :</h1>
+    <h1>Les services que je vous propose&nbsp:</h1>
     <p>
       <strong><a href="#/accord">Accorder</a></strong> votre piano,
       <strong><a href="#/reglages">Régler</a></strong>
@@ -13,7 +13,7 @@
       Je suis disponible toute la journée, de préférence les jeudis, vendredis,
       ainsi que le samedi matin.
     </p>
-    <p>Pour tout renseignement, n'hésitez pas à me contacter !</p>
+    <p>Pour tout renseignement, n'hésitez pas à me contacter&nbsp!</p>
     <p><strong>Musicalement,</strong></p>
     <p class="signature">
       <img src="favicon.png" alt="signature" />

@@ -23,7 +23,7 @@
     background-attachment: fixed;
     background-position: right 5% bottom 20%;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;

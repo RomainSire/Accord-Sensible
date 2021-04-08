@@ -4,8 +4,7 @@
     <h1>Réparations</h1>
 
     <p>
-      Les réparations que je suis en mesure de vous proposer sont les suivantes
-      :
+      Les réparations que je suis en mesure de vous proposer sont les suivantes&nbsp:
     </p>
     <ol>
       <li><strong>Changement de cordes cassées</strong></li>
@@ -15,15 +14,15 @@
       </li>
       <li>
         <strong>Recollage ou remplacement de pièces</strong> (revêtements de touche
-        en ivoire, manches de marteaux, fourches, ...)
+        en ivoire, manches de marteaux, fourches,...)
       </li>
       <li>
         <strong>Regarnissage</strong> (il s'agit de recoller les feutres des mortaises,
-        des trous d'axe, des pédales, ...)
+        des trous d'axe, des pédales,...)
       </li>
       <li>
         <strong>Dépannage</strong> (rebonds sur les cordes, problèmes de répétition
-        ou d'absence de son, blocages de touches , ...)
+        ou d'absence de son, blocages de touches,...)
       </li>
     </ol>
     <p>

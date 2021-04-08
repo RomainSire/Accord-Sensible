@@ -13,7 +13,7 @@
     <p>
       Bien souvent même les bons pianistes ne connaissent pas vraiment la
       structure ou le mécanisme de leur instrument (dans le détail), ni les
-      matériaux utilisés (bois, feutres, ...), tout simplement parce que la
+      matériaux utilisés (bois, feutres,...), tout simplement parce que la
       facture instrumentale est un autre métier, et s'exercer sur son instrument
       est un autre "travail" à part entière, qui nécessite de s'exercer de
       nombreuses heures...

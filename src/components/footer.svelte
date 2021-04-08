@@ -4,9 +4,9 @@
   </p>
   <p>
     Si je ne réponds pas, laissez moi un message, je vous recontacterai sans
-    fautes au plus tard le soir même ou le lendemain !
+    fautes au plus tard le soir même ou le lendemain&nbsp!
   </p>
-  <p>Auto-entrepreneur - SIRET : 000 000 000 00000</p>
+  <p>Auto-entrepreneur - SIRET&nbsp: 000 000 000 00000</p>
 </footer>
 
 <style lang="scss">

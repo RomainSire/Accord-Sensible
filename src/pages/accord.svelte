@@ -5,7 +5,7 @@
     <p>
       L'accord de votre piano est une opération qu'il est nécessaire de faire <strong
         >au moins une fois par an</strong
-      > de façon à ce que celui-ci :
+      > de façon à ce que celui-ci&nbsp:
     </p>
     <ol>
       <li>
