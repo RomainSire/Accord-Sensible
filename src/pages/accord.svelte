@@ -1,4 +1,12 @@
-<div class="wrapper">
+<script>
+  import { slide } from "svelte/transition";
+</script>
+
+<div
+  class="wrapper"
+  in:slide={{ delay: 500, duration: 500 }}
+  out:slide={{ duration: 500 }}
+>
   <div class="hero" />
   <div class="description">
     <h1>Accord</h1>

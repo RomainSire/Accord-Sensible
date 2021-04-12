@@ -30,9 +30,10 @@
     align-items: center;
   }
   .main {
-    @include transparent-background-effect;
-    width: 80%;
-    border-radius: 35px;
-    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 </style>

@@ -49,6 +49,10 @@ $font_title: "Potta One", cursive;
     @media screen and (min-width: 992px) {
       flex-flow: row nowrap;
     }
+    @include transparent-background-effect;
+    width: 80%;
+    border-radius: 35px;
+    overflow: hidden;
   }
   .hero {
     flex: 1;
